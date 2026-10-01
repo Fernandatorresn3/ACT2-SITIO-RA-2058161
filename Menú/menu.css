@@ -59,16 +59,14 @@ nav ul
 nav ul li a
 {
     color: #f8f1e5;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s ease;
 }
 
 nav ul li a:hover
 {
 color: #d9ad5b;
-}
-
-nav a.activo
-{
-    color: #d99a3d;
 }
 
 /*INICIO*/
@@ -243,4 +241,156 @@ footer
     {
         height: 200px;
     }
+}
+
+/*MENU*/
+
+.menu
+{
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.menu h1
+{
+    text-align: center;
+    color: #2d1b45;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.menup
+{
+    text-align: center;
+    color: #555;
+    font-size: 1.1rem;
+    max-width: 700px;
+    margin: 0 auto 50px;
+}
+
+/*CATEGORIA*/
+
+.categoria
+{
+    margin-bottom: 60px;
+}
+
+.categoria h2
+{
+    color: #2d1b45;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 25px;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #c9a227;
+}
+
+/*PRODUCTOS*/
+
+.productos
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    max-width: 1050px;
+    margin: 0 auto;
+}
+
+.producto
+{
+    background-color: #fffaf0;
+    border-radius: 15px;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0 ,0.2);
+    transition: transform 0.3s ease, box shadow 0.3s ease;
+}
+
+.producto:hover
+{
+    transform: translateY(-6px);
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.20);
+}
+
+/*IMAGENS*/
+
+.producto img
+{
+    width: 100%;
+    height: 210px;
+    object-fit: cover;
+    display: block;
+}
+
+
+/*PRODUCTO DESCRIPCION*/
+
+.producto h3
+{
+    color: #2d1b45;
+    font-size: 1.3rem;
+    margin: 18px 10px 8px;
+}
+
+.producto p
+{
+    color: #555;
+    font-size: 0.95rem;
+    line-height: 1.5;
+    margin: 0 15px 15px;
+}
+
+.producto span
+{
+    display: block;
+    color: #b38b00;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/*CELULAR*/
+
+@media (max-width: 600px)
+{
+    .menu
+    {
+        width: 92%;
+        padding: 35px 0;
+    }
+
+    .menu h1
+    {
+        font-size: 2rem;
+    }
+
+    .menup
+    {
+        font-size: 1rem;
+        margin-bottom: 35px;
+    }
+
+    .categoria
+    {
+        margin-bottom: 45px;
+    }
+
+    .categoria h2
+    {
+        font-size: 1.6rem;
+    }
+
+    .productos
+    {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .producto img
+    {
+        height: 220px;
+    }
+
 }
