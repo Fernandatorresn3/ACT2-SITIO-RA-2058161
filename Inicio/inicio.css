@@ -59,6 +59,9 @@ nav ul
 nav ul li a
 {
     color: #f8f1e5;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s ease;
 }
 
 nav ul li a:hover
@@ -66,10 +69,13 @@ nav ul li a:hover
 color: #d9ad5b;
 }
 
-nav a.activo
+nav ul li a.activo
 {
-    color: #d99a3d;
+    color: #d9ad5b;
+
 }
+
+
 
 /*INICIO*/
 

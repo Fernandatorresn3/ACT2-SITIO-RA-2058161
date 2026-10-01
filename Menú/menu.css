@@ -69,6 +69,12 @@ nav ul li a:hover
 color: #d9ad5b;
 }
 
+nav ul li a.activo
+{
+    color: #d9ad5b;
+
+}
+
 /*INICIO*/
 
 .inicio
