@@ -75,6 +75,16 @@ nav ul li a.activo
 
 }
 
+/*PIE*/
+footer
+{
+    background-color: #17132b;
+    color: #f8f1e5;
+    text-align: center;
+    padding: 25px 7%;
+}
+
+
 /*PRESETACION*/
 
 .presentacion
@@ -303,7 +313,7 @@ nav ul li a.activo
 
 /*CELULAR*/
 
-@media (max-whidth: 768px)
+@media (max-width: 768px)
 {
     header
     {
