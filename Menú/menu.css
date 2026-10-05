@@ -357,6 +357,44 @@ footer
     margin-bottom: 20px;
 }
 
+/*TABLET*/
+@media (max-width: 900px)
+{
+    header
+    {
+        padding: 18px 5%;
+    }
+
+    nav
+    {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    nav ul
+    {
+        gap: 15px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .logo img 
+    {
+        width: 42px;
+        height: 42px;
+    }
+
+    .logo
+    {
+        font-size: 1.3rem;
+    }
+
+    .productos
+    {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
 /*CELULAR*/
 
 @media (max-width: 768px)
@@ -377,6 +415,11 @@ footer
         gap: 15px;
         flex-wrap: wrap;
         justify-content: center;
+    }
+
+    nav ul li a
+    {
+        font-size: 0.95rem;
     }
 
     .logo img 
@@ -424,9 +467,29 @@ footer
         gap: 20px;
     }
 
+    .producto
+    {
+        width: 100%;
+    }
+
     .producto img
     {
         height: 220px;
+    }
+
+    .producto h3 
+    {
+        font-size: 1.2rem;
+    }
+
+    .producto p 
+    {
+        font-size: 0.95rem;
+    }
+
+    footer 
+    {
+        padding: 20px 5%;
     }
 
 }
