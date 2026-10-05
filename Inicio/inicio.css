@@ -196,7 +196,7 @@ footer
 
 /*RESPOSIVO*/
 
-@media (max-width: 768)
+@media (max-width: 768px)
 {
     .logo img 
     {
@@ -229,7 +229,7 @@ footer
         padding: 50px 5%;
     }
 
-    .contenido-inicio h1
+    .contenidoinicio h1
     {
         font-size: 2.5rem;
     }

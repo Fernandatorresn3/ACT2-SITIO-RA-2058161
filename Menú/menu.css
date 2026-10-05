@@ -359,8 +359,68 @@ footer
 
 /*CELULAR*/
 
-@media (max-width: 600px)
+@media (max-width: 900px)
 {
+    header
+    {
+        padding: 18px 5%;
+    }
+
+    nav
+    {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    nav ul
+    {
+        gap: 15px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .logo img 
+    {
+        width: 42px;
+        height: 42px;
+    }
+
+    .logo
+    {
+        font-size: 1.3rem;
+    }
+
+    .productos
+    {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (max-width: 768px)
+{
+    nav
+    {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    nav ul
+    {
+        gap: 15px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .logo img 
+    {
+        width: 42px;
+        height: 42px;
+    }
+
+    .logo
+    {
+        font-size: 1.3rem;
+    }
+    
     .menu
     {
         width: 92%;
@@ -375,6 +435,7 @@ footer
     .menup
     {
         font-size: 1rem;
+        line-height: 1.6;
         margin-bottom: 35px;
     }
 
