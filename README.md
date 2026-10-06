@@ -4,6 +4,7 @@ Construir y publicar un sitio web responsivo utilizando HTML5 semántico y CSS m
 ## Tecnologías utilizadas:
 -HTML5<br>
 -CSS<br>
+-Responsive web design<br>
 -Visual Studio Code<br>
 -GITHUB PAGES<br>
 ## Capturas del sitio
